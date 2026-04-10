@@ -1,0 +1,13 @@
+{
+	"python.defaultInterpreterPath": "/usr/local/bin/python3",
+	"python.terminal.activateEnvironment": true,
+	"python.linting.enabled": true,
+	"python.linting.pylintEnabled": false,
+	"python.linting.flake8Enabled": false,
+	"editor.formatOnSave": true,
+	"files.exclude": {
+		"**/__pycache__": true,
+		"**/*.pyc": true,
+		"**/.pytest_cache": true
+	}
+}

@@ -1,0 +1,15 @@
+[tool.pyright]
+extraPaths = ["./backend", "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages"]
+typeCheckingMode = "off"
+pythonVersion = "3.12"
+pythonPlatform = "Darwin"
+
+[tool.pyright.diagnosticSeverityOverrides]
+reportMissingImports = "none"
+reportMissingModuleSource = "none"
+reportImportCycles = "none"
+
+[project]
+name = "archai-platform"
+version = "1.0.0"
+requires-python = ">=3.12"
